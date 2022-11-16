@@ -1,0 +1,22 @@
+<mat-sidenav-container class="example-container">
+  <mat-sidenav #hidenav mode="side" opened>
+    <app-side-bar></app-side-bar>
+  </mat-sidenav>
+
+  
+  <mat-sidenav-content>
+    <mat-toolbar>
+      <button (click)="hidenav.toggle()" mat-icon-button><i class="material-icons">menu</i></button>
+      <span class="example-fill-remaining-space"></span>
+      <span class="user-text">Welcome Guest</span>
+      <button mat-button>Log Out</button>
+    </mat-toolbar>
+    <div class="main-cont">
+      <router-outlet></router-outlet>
+    </div>
+  </mat-sidenav-content>
+</mat-sidenav-container>
+
+
+
+

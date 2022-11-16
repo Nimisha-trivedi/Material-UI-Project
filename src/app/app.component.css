@@ -1,0 +1,21 @@
+.example-container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #eee;
+  }
+
+  .mat-drawer-side{
+      border-right: none;
+      background: #2d323e;
+      color: #fff;
+      min-width: 250px;
+  }
+  .main-cont{
+      padding: 20px;
+  }
+  .example-fill-remaining-space{
+      flex:1 1 auto;
+  }
